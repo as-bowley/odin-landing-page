@@ -16,7 +16,7 @@ body {
     padding: 10px;
     font-weight: 700;
     font-size: 24px;
-    padding-left: 20%;
+    padding-left: 18.5%;
 }
 
 .header a {
@@ -34,5 +34,174 @@ body {
 .links {
     margin-left: auto;
     color: rgb(255, 255, 255);
-    padding-right: 20%;
+    padding-right: 18.5%;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+}
+
+.hero-text {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 450px;
+    color: white;
+    margin: 30px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text h3 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button {
+    background-color: #3882e6;
+    color: white;
+    padding: 8px 28px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+
+.hero img {
+    display: flex;
+    height: 200px;
+    width: 450px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 700px;
+    padding-top: 40px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    height: 400px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-cards p {
+    text-align: center;
+}
+
+.img-placeholder {
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #3882e6;
+    border-radius: 12px;
+    border-width: 4px;
+}
+
+.card {
+    padding: 50px;
+}
+
+.quote-container {
+    height: 400px;
+    background-color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container h4 {
+    font-size: 36px;
+    width: 700px;
+    color: #4b5868;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-container h5 {
+    width: 600px;
+    margin-left: auto;
+    font-size: 18px;
+}
+
+.action-section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-card {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    background-color: #3882e6;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 80px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.action-card button {
+    color: #e5e7eb;
+    background: #3882e6;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.action-card-text {
+   
+    padding: 20px;
+}
+
+.action-card-text h1 {
+    padding-bottom: 0;
+}
+
+.action-card-text h3 {
+    padding-top: 0;
+}
+
+.action-card-button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 80px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
